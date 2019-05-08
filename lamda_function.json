@@ -1,0 +1,23 @@
+{
+    "body": {
+        "version": "1.0",
+        "response": {
+            "outputSpeech": {
+                "type": "PlainText",
+                "text": ""
+            },
+            "card": {
+                "type": "Simple",
+                "title": "",
+                "content": ""
+            },
+            "reprompt": {
+                "outputSpeech": {
+                    "type": "PlainText",
+                    "text": ""
+                }
+            },
+            "shouldEndSession": value
+        }
+    }
+}
