@@ -1,0 +1,70 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "chess players",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "playerBio",
+                    "slots": [
+                        {
+                            "name": "player",
+                            "type": "playerNames"
+                        }
+                    ],
+                    "samples": [
+                        "{player}",
+                        "who is {player}",
+                        "tell me about {player}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "playerNames",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Jose Raul Capablanca"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mikhail Tal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bobby Fisher"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Garry Kasparov"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
