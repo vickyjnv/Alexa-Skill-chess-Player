@@ -1,4 +1,4 @@
 # Alexa-Skill-chess-Player
 This repo is all about a chess skill in  Amzon Alexa
 
-![alt text](https://medium.com/crowdbotics/how-to-build-a-custom-amazon-alexa-skill-step-by-step-my-favorite-chess-player-dcc0edae53fb)
+![alt text](https://cdn-images-1.medium.com/max/1400/1*4W4hAUEobx1e5ZQTc21wEQ.png)
